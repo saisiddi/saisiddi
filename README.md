@@ -111,11 +111,21 @@ Chrome extension with a live dashboard for proctoring a lab coding contest — l
 <br>
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=saisiddi&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saisiddi&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</div>
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=saisiddi&theme=tokyonight&hide_border=true" alt="Streak stats" />
+
+<img src="https://github-readme-insight-terminal-asci.vercel.app/svg/neofetch?user=saisiddi&theme=mac&color=1" alt="GitHub neofetch" width="100%" />
+
+<br/><br/>
+
+<img src="https://github-readme-insight-terminal-asci.vercel.app/svg/stats?user=saisiddi&theme=mac" alt="GitHub stats" width="100%" />
+
+<br/><br/>
+
+<img src="https://github-readme-insight-terminal-asci.vercel.app/svg/streak?user=saisiddi&theme=mac" alt="GitHub streak" width="100%" />
+
+<br/><br/>
+
+<img src="https://github-readme-insight-terminal-asci.vercel.app/svg/top-lang?user=saisiddi&theme=mac&top=8" alt="Top languages" width="100%" />
+
 </div>
 
 </details>
