@@ -17,14 +17,12 @@
 
 Same gate format I built for EV battery telemetry at iTelematics — pointed at myself.
 
-| Rule | Domain | Result | Evidence |
-| :--: | :-- | :--: | :-- |
-| `R-01` | **SECURITY** | ✅ PASS | Detection engineering, threat modeling for embedded/EV systems, ethical hacking, OSINT, web app security |
-| `R-02` | **AI SYSTEMS** | ✅ PASS | LLM agents, RAG pipelines, voice AI (Sarvam, Gemini), prompt design |
-| `R-03` | **SHIPPED** | ✅ PASS | SIM-006: 8 detection rules, FastAPI+CLI+Streamlit, 161 tests @ 95%+ coverage, 10K-event stress test |
-| `R-04` | **FOUNDER MODE** | ✅ PASS | Co-founded VachLabs; shipped a compliance layer; caught and fixed a live credential leak |
-| `R-05` | **LEADERSHIP** | ✅ PASS | Ran a 500+ person hackathon; built a national event's site + registration system |
+<div align="center">
+<img src="assets/self-scan.svg" alt="self-scan report: 5 of 5 rules passed" width="100%" />
+</div>
 
+<br/>
+<img src="assets/divider.svg" width="100%" alt="" />
 <br/>
 
 ### 🧭 Mission Log
@@ -60,6 +58,8 @@ Same gate format I built for EV battery telemetry at iTelematics — pointed at 
 ```
 
 <br/>
+<img src="assets/divider.svg" width="100%" alt="" />
+<br/>
 
 ### 🧪 Builds
 
@@ -71,6 +71,8 @@ Same gate format I built for EV battery telemetry at iTelematics — pointed at 
 </table>
 
 <br/>
+<img src="assets/divider.svg" width="100%" alt="" />
+<br/>
 
 ### 🏆 Leadership & Recognition
 
@@ -79,6 +81,8 @@ Same gate format I built for EV battery telemetry at iTelematics — pointed at 
 ![Smart India Hackathon](https://img.shields.io/badge/Smart%20India%20Hackathon%202026-Participant-FF9933?style=for-the-badge)
 ![Workshop](https://img.shields.io/badge/Prompting%20%26%20Frontend%20Workshop-Co--organizer-6E40C9?style=for-the-badge)
 
+<br/>
+<img src="assets/divider.svg" width="100%" alt="" />
 <br/>
 
 ### 🛠️ Tech Stack
@@ -92,6 +96,8 @@ Same gate format I built for EV battery telemetry at iTelematics — pointed at 
 **Security** — detection engineering · threat modeling (embedded/EV) · ethical hacking · OSINT · web app security
 **AI** — LLM agents · RAG · voice AI (Sarvam, Gemini) · prompt design
 
+<br/>
+<img src="assets/divider.svg" width="100%" alt="" />
 <br/>
 
 ### 📊 Live Telemetry
@@ -115,11 +121,15 @@ Same gate format I built for EV battery telemetry at iTelematics — pointed at 
 </div>
 
 <br/>
+<img src="assets/divider.svg" width="100%" alt="" />
+<br/>
 
 ### 📡 Status
 
 `● ONLINE` — `scaling VachLabs` · `hardening SIM-006` · `researching EV attack surfaces` · `open to: security internships · research roles · hackathon teams`
 
+<br/>
+<img src="assets/divider.svg" width="100%" alt="" />
 <br/>
 
 <div align="center">

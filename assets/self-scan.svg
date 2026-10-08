@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" viewBox="0 0 820 520" role="img" aria-label="saisiddi self-scan report">
+<title>saisiddi — self-scan.log</title>
+<defs>
+  <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b1026"/>
+    <stop offset="0.55" stop-color="#0c1c2e"/>
+    <stop offset="1" stop-color="#07131f"/>
+  </linearGradient>
+  <linearGradient id="border2" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#56d4dd"/>
+    <stop offset="0.5" stop-color="#39ff88"/>
+    <stop offset="1" stop-color="#56d4dd"/>
+  </linearGradient>
+  <filter id="glow2" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid2" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#1e3a4a" stroke-width="0.6" opacity="0.35"/>
+  </pattern>
+  <style>
+    .mono { font-family: 'Fira Code','Consolas','Menlo',monospace; }
+  </style>
+</defs>
+
+<rect x="3" y="3" width="814" height="514" rx="14" fill="none" stroke="url(#border2)" stroke-width="2" filter="url(#glow2)" opacity="0.9"/>
+<rect x="6" y="6" width="808" height="508" rx="12" fill="url(#bg2)"/>
+<rect x="6" y="6" width="808" height="508" rx="12" fill="url(#grid2)"/>
+
+<rect x="6" y="6" width="808" height="38" rx="12" fill="#0d1b2e"/>
+<rect x="6" y="32" width="808" height="12" fill="#0d1b2e"/>
+<circle cx="30" cy="25" r="6" fill="#ff5f56"/>
+<circle cx="50" cy="25" r="6" fill="#ffbd2e"/>
+<circle cx="70" cy="25" r="6" fill="#39ff88"/>
+<text x="410" y="30" text-anchor="middle" class="mono" font-size="13" fill="#6fe3c4">saisiddi --scan --verbose</text>
+
+<g class="mono" font-size="12" font-weight="bold" fill="#56d4dd">
+  <text x="30" y="78">RULE</text>
+  <text x="100" y="78">DOMAIN</text>
+  <text x="230" y="78">RESULT</text>
+  <text x="320" y="78">EVIDENCE</text>
+</g>
+<line x1="30" y1="90" x2="790" y2="90" stroke="#1e3a4a" stroke-width="1"/>
+
+<g class="mono" font-size="13">
+  <!-- R-01 -->
+  <text x="30" y="122" fill="#56d4dd" font-weight="bold">R-01</text>
+  <text x="100" y="122" fill="#f0f6fc" font-weight="bold">SECURITY</text>
+  <rect x="230" y="106" width="60" height="22" rx="8" fill="#39ff88"/>
+  <text x="260" y="121" text-anchor="middle" fill="#07131f" font-weight="bold" font-size="12">PASS</text>
+  <text x="320" y="122" fill="#c9d1d9">Detection engineering, threat modeling for embedded/EV</text>
+  <text x="320" y="140" fill="#c9d1d9">systems, ethical hacking, OSINT, web app security</text>
+
+  <!-- R-02 -->
+  <text x="30" y="196" fill="#56d4dd" font-weight="bold">R-02</text>
+  <text x="100" y="196" fill="#f0f6fc" font-weight="bold">AI SYSTEMS</text>
+  <rect x="230" y="180" width="60" height="22" rx="8" fill="#39ff88"/>
+  <text x="260" y="195" text-anchor="middle" fill="#07131f" font-weight="bold" font-size="12">PASS</text>
+  <text x="320" y="196" fill="#c9d1d9">LLM agents, RAG pipelines, voice AI (Sarvam, Gemini),</text>
+  <text x="320" y="214" fill="#c9d1d9">prompt design</text>
+
+  <!-- R-03 -->
+  <text x="30" y="270" fill="#56d4dd" font-weight="bold">R-03</text>
+  <text x="100" y="270" fill="#f0f6fc" font-weight="bold">SHIPPED</text>
+  <rect x="230" y="254" width="60" height="22" rx="8" fill="#39ff88"/>
+  <text x="260" y="269" text-anchor="middle" fill="#07131f" font-weight="bold" font-size="12">PASS</text>
+  <text x="320" y="270" fill="#c9d1d9">SIM-006: 8 detection rules, FastAPI+CLI+Streamlit,</text>
+  <text x="320" y="288" fill="#c9d1d9">161 tests @ 95%+ coverage, 10K-event stress test</text>
+
+  <!-- R-04 -->
+  <text x="30" y="344" fill="#56d4dd" font-weight="bold">R-04</text>
+  <text x="100" y="344" fill="#f0f6fc" font-weight="bold">FOUNDER MODE</text>
+  <rect x="230" y="328" width="60" height="22" rx="8" fill="#39ff88"/>
+  <text x="260" y="343" text-anchor="middle" fill="#07131f" font-weight="bold" font-size="12">PASS</text>
+  <text x="320" y="344" fill="#c9d1d9">Co-founded VachLabs; shipped a compliance layer;</text>
+  <text x="320" y="362" fill="#c9d1d9">caught and fixed a live credential leak</text>
+
+  <!-- R-05 -->
+  <text x="30" y="418" fill="#56d4dd" font-weight="bold">R-05</text>
+  <text x="100" y="418" fill="#f0f6fc" font-weight="bold">LEADERSHIP</text>
+  <rect x="230" y="402" width="60" height="22" rx="8" fill="#39ff88"/>
+  <text x="260" y="417" text-anchor="middle" fill="#07131f" font-weight="bold" font-size="12">PASS</text>
+  <text x="320" y="418" fill="#c9d1d9">Ran a 500+ person hackathon; built a national event's</text>
+  <text x="320" y="436" fill="#c9d1d9">site + registration system</text>
+</g>
+
+<line x1="30" y1="462" x2="790" y2="462" stroke="#1e3a4a" stroke-width="1"/>
+<text x="410" y="488" text-anchor="middle" class="mono" font-size="13" fill="#39ff88" font-weight="bold">5 / 5 gates passed — scan complete</text>
+</svg>
